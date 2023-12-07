@@ -1,0 +1,3 @@
+q_add(my_list=[]):
+  3     list(map(lambda x: for set(my_list), sum(my_list)))
+~                                                             
