@@ -1,4 +1,6 @@
 -- lists all cities contained in the database 
-SELECT `cities.id`, `cities.name`, `states.name`
-    FROM `hbtn_0d_usa`.`cities`
-ORDER BY cities.id
+SELECT c.`id`, c.`name`, s.`name`
+    FROM `cities` AS c
+    INNER JOIN `state` AS `s`
+    ON c.`state_id` = s.`id`
+ORDER BY c.`id`;
