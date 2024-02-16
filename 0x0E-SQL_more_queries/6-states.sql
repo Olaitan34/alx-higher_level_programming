@@ -1,7 +1,7 @@
 -- Create datebase
 CREATE DATABASE
-    IF NOT EXISTS hbtn_0d_usa;
+    IF NOT EXISTS `hbtn_0d_usa`;
 CREATE TABLE
-    IF NOT EXISTS state
+    IF NOT EXISTS `hbtn_0d_usa`.`state`
     (`id` INT AUTO_INCREMENT PRIMARY KEY,
     `name` VARCHAR(256) NOT NULL);
